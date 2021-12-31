@@ -1,46 +1,9 @@
-html {
+body {
+    font-family: 'Garamond', serif;
+}
+
+#left, #right {
     background-color: lightcoral;
 }
 
-body {
-    font-family: 'Garamond', serif;
-    font-size: 10px;
-    margin: 0 25% 0 25%;
-}
-
-img {
-    max-width: 100%;
-    margin-left: 37.295945%;
-    margin-right: 37.295945%;
-}
-
-article {
-    background-color: white;
-    border: 5px solid black;
-}
-
-h1 {
-    font-size: 6em;
-    text-align: center;
-    margin-top: 0;
-    border: 5px none black;
-    border-bottom: solid;
-}
-
-h2 {
-    font-size: 4em;
-    margin: 0;
-}
-
-p {
-    font-size: 3em;
-}
-
-a {
-    font-size: 2em;
-    color: black;
-}
-
-li {
-    font-size: 2em;
-}
+html { background-color: lightcoral;}
