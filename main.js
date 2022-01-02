@@ -1,6 +1,8 @@
-let email = document.querySelector('a');
+const donations = document.querySelectorAll('ul > li > a');
 
-email.addEventListener("click", () => {
-    navigator.clipboard.writeText(email.textContent);
-    alert('Copied!');
-})
+donations.forEach(donation => {
+    donation.addEventListener("click", () => {
+        navigator.clipboard.writeText(donation.textContent);
+        alert('Copied!');
+    });
+});
